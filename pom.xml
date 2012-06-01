@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.photon.phresco</groupId>
     <artifactId>phresco-parent</artifactId>
-    <version>1.1.15002-SNAPSHOT</version>
+    <version>2.0.1000-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Phresco Parent POM for repository and distribution management</name>
@@ -29,8 +29,9 @@
         <module>../phresco-framework</module>
         <module>../phresco-service</module>
         <module>../phresco-service-auth</module>
+        <module>../phresco-service-client</module>
         <module>../phresco-pom</module>
-  <!--  <module>../phresco-aws</module>  -->
+        <module>../phresco-aws</module>
         <module>../phresco-tools</module>
         <module>../phresco-android-archetype</module>
         <module>../phresco-android-hybrid-archetype</module>
@@ -147,12 +148,12 @@
                    <verbose>false</verbose>
                    <processStartTag>###</processStartTag>
                    <processEndTag>###</processEndTag>
-                   <!-- <sectionDelimiter></sectionDelimiter> -->
+                  <!-- <sectionDelimiter>" "</sectionDelimiter> -->
                    <licenseName>apache_v2</licenseName>
-                   <roots>
+                <!--   <roots>
                        <root>src/main/java</root>
-                       <root>src/test</root>
-                   </roots>
+                       <root>src/test</root>  
+                   </roots> -->
                 </configuration>
             </plugin>
           </plugins>
