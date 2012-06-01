@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.photon.phresco</groupId>
     <artifactId>phresco-parent</artifactId>
-    <version>2.0.1000-SNAPSHOT</version>
+    <version>1.1.1.1000-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Phresco Parent POM for repository and distribution management</name>
