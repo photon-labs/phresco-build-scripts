@@ -1,0 +1,28 @@
+{
+   "name":"EShop",
+   "code":"PHR_androidnativae",
+   "version":"1.0.0",
+   "description":"",
+   "technology":{
+      "id":"tech-android-native",
+      "name":"Android Native",
+      "modules":[
+         {
+            "id":"mod_googlegson_1.7.1",
+            "name":"GoogleGSON",
+            "core":false,
+            "required":false,
+            "versions":[
+               {
+                  "version":"1.7.1",
+                  "url":"/modules/tech-android-native/files/mod_googlegson_1.7.1/1.7.1/mod_googlegson_1.7.1-1.7.1.jar",
+                  "dependentModules":[
+
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "application":"apptype-mobile"
+}

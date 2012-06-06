@@ -1,0 +1,104 @@
+{
+   "application":"EShop",
+   "code":"Html5MobileWidget_eShop",
+   "description":"This is an eShop project developed with Html5MobileWidget",
+   "name":"EShop",
+   "technology":{
+      "id":"tech-html5-mobile-widget",
+      "jsLibraries":[
+         {
+            "core":false,
+            "id":"jslib_yui3",
+            "name":"YUI3",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_yui3/3.4.1/jslib_yui3-3.4.1.zip",
+                  "version":"3.4.1"
+               }
+            ]
+         },
+         {
+            "core":false,
+            "id":"jslib_jquery",
+            "name":"jQuery",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_jquery/1.6.2/jslib_jquery-1.6.2.zip",
+                  "version":"1.6.2"
+               }
+            ]
+         },
+         {
+            "core":false,
+            "id":"jslib_jquery_ui",
+            "name":"jQuery UI",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_jquery_ui/1.8.16/jslib_jquery_ui-1.8.16.zip",
+                  "version":"1.8.16"
+               }
+            ]
+         },
+         {
+            "core":false,
+            "id":"jslib_iscroll",
+            "name":"IScroll",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_iscroll/3.7.1/jslib_iscroll-3.7.1.zip",
+                  "version":"3.7.1"
+               }
+            ]
+         },
+         {
+            "core":false,
+            "id":"jslib_jsonpath",
+            "name":"JSONPath",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_jsonpath/0.8.0/jslib_jsonpath-0.8.0.zip",
+                  "version":"0.8.0"
+               }
+            ]
+         },
+         {
+            "core":false,
+            "id":"jslib_plist_parser",
+            "name":"Plist Parser",
+            "required":false,
+            "versions":[
+               {
+                  "dependentModules":[
+
+                  ],
+                  "url":"/jslibraries/files/jslib_plist_parser/0.1/jslib_plist_parser-0.1.zip",
+                  "version":"1.0"
+               }
+            ]
+         }
+      ],
+	  "servers":[{"id":1,"name":"Apache Tomcat","versions":["7.0.x"],"description":"Apache Tomcat Server"}],"webservices":[{"id":1,"name":"REST/JSON","version":"1.0","description":"REST JSON web services"}],"emailSupported":false,
+      "name":"HTML5 Mobile Widget"
+   },
+   "version":"1.0.0"
+}
