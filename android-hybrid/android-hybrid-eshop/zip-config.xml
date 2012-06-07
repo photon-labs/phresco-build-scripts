@@ -24,6 +24,7 @@
 				<exclude>**/gen/**</exclude>
 			    <exclude>**/Thumbs.db</exclude>
 			    <exclude>**/.svn/**</exclude>
+                <exclude>**/.phresco/**</exclude>
 			    <exclude>**/sites/all/modules/**</exclude>
 			</excludes>
 		</fileSet>

@@ -13,12 +13,20 @@
 		<fileSet>
 			<directory>../../../iphone-hybrid-shoppingcart</directory>
             <outputDirectory>./</outputDirectory>
+			 <includes>
+			    <include>/source/**</include>
+			    <include>/test/**</include>
+			    <include>/docs/**</include>
+			</includes>
 			<excludes>
 			    <exclude>zip-config.xml</exclude>
 			    <exclude>pom.xml</exclude>
 			    <exclude>target/**</exclude>
 			    <exclude>**/Thumbs.db</exclude>
 			    <exclude>**/.svn/**</exclude>
+                <exclude>**/.phresco/**</exclude>
+                <exclude>**/.gitignore/**</exclude>
+                <exclude>**/README.md/**</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>

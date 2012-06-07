@@ -24,6 +24,7 @@
 			    <exclude>**/Thumbs.db</exclude>
 			    <exclude>**/.svn/**</exclude>
 			    <exclude>/source/node_modules/nodeunit</exclude>
+                <exclude>**/.phresco/**</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>

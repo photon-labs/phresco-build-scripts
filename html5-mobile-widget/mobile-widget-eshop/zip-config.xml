@@ -23,6 +23,7 @@
 			    <exclude>pom.xml</exclude>
 			    <exclude>**/Thumbs.db</exclude>
 			    <exclude>**/.svn/**</exclude>
+                <exclude>**/.phresco/**</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>
