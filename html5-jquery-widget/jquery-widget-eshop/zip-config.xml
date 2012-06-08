@@ -11,7 +11,7 @@
 	<fileSets>
 		<!-- filter to copy the contents from the delivery directory -->
 		<fileSet>
-			<directory>../../../drupal7-eshop</directory>
+			<directory>../../../jquery-widget-eshop</directory>
             <outputDirectory>./</outputDirectory>
 			<includes>
 			    <include>/src/**</include>
