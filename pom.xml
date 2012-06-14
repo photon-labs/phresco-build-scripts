@@ -1,0 +1,109 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pilots</groupId>
+    <artifactId>pilot-projects</artifactId>
+    <version>1.2.0.2000</version>
+    <packaging>pom</packaging>
+    <url>http://www.phresco.com</url>
+    <name>Phresco projects</name>
+    
+    <modules>
+        <module>android-native</module>
+        <module>android-hybrid</module>     
+        <module>drupal7</module>
+        <module>html5-jquery-widget</module>
+        <module>html5-mobile-widget</module>
+        <module>html5-widget</module> 
+        <module>iphone-native</module>
+        <module>iphone-hybrid</module> 
+        <module>java-webservice</module>
+        <module>php</module>
+        <module>sharepoint</module>
+        <module>nodejs-webservice</module>
+    </modules>
+
+    
+     <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+     </profile>
+
+     <profile>
+            <id>test</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <distributionManagement>
+            <repository>
+                <id>test-release</id>
+                <url>http://456:8080/nexus/content/repositories/releases/</url>
+            </repository>
+             <site>
+                <id>phresco</id>
+                <name>Phresco</name>
+                <url>scp://phresco.org/home/public_html/</url>
+            </site>
+            </distributionManagement>
+     </profile>
+
+     <profile>
+            <id>stage</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <distributionManagement>
+            <repository>
+                <id>stage-release</id>
+                <url>http://456:8080/nexus/content/repositories/releases/</url>
+            </repository>
+                <site>
+                    <id>phresco</id>
+                    <name>Phresco</name>
+                    <url>scp://phresco.org/home/public_html/</url>
+               </site>
+            </distributionManagement>
+     </profile>
+     
+     <!-- Profile for Production deployment -->
+     <profile>
+            <id>prod</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <distributionManagement>
+            <repository>
+                <id>prod-release</id>
+                <url>http://456:8080/nexus/content/repositories/releases/</url>
+            </repository>
+             <site>
+                <id>phresco</id>
+                <name>Phresco</name>
+                <url>scp://phresco.org/home/public_html/</url>
+            </site>
+         </distributionManagement>
+     </profile>
+   </profiles>
+        
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.4</version>
+                
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+                
+                <inherited>false</inherited>
+            </plugin>
+        </plugins>
+    </build>
+    
+</project>
+
