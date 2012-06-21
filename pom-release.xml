@@ -1,0 +1,62 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.photon.phresco</groupId>
+	<artifactId>phresco-release</artifactId>
+	<version>1.1</version>
+        <packaging>pom</packaging>
+	<url>http://www.phresco.com</url>
+	<name>Phresco Parent POM for repository and distribution management</name>
+
+	<properties>
+
+	 	<current.version>2.0.0.1000-SNAPSHOT</current.version>
+		<next.version>2.0.0.1000</next.version>
+
+	</properties>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.google.code.maven-replacer-plugin</groupId>
+            <artifactId>maven-replacer-plugin</artifactId>
+            <version>1.4.0</version>
+            <executions>                
+                <execution>
+                    <phase>prepare-package</phase>
+                    <goals>
+                        <goal>replace</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+			<basedir>../</basedir>
+                <includes>
+			<include>**/pom.xml</include>
+			<!--
+			<include>commons/**/pom.xml</include>
+			<include>framework/**/pom.xml</include>
+			-->
+			<include>**/deployjson.bat</include>
+			<include>**/deployjson.sh</include>
+
+			<!-- <include>**/server.config</include> -->
+                </includes>
+                <excludes>
+			<exclude>**/tags/**</exclude>
+			<exclude>**/tag/**</exclude>
+                </excludes>
+		<token>${current.version}</token>
+		<value>${next.version}</value>
+            </configuration>
+        </plugin>
+		<plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>versions-maven-plugin</artifactId>
+      <version>1.3.1</version>
+	  </plugin>
+    </plugins>
+</build>
+	
+</project>
