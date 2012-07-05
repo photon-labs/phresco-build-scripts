@@ -3,14 +3,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
     <artifactId>pilot-projects</artifactId>
-    <version>1.2.0.5002-SNAPSHOT</version>
+    <version>1.2.0.5003-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Phresco projects</name>
     
     <modules>
         <module>android-native</module>
-        <module>android-hybrid</module>     
+        <module>android-hybrid</module>    
         <module>drupal7</module>
         <module>html5-jquery-widget</module>
         <module>jquery-mobile-widget-eshop</module>
