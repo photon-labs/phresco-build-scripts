@@ -6,7 +6,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Nodejs-webservice Resource Management</name>
-    <version>1.2.0.7004-SNAPSHOT</version>      
+    <version>1.2.0.8001-SNAPSHOT</version>      
     <build>
         <plugins>
             <plugin>
