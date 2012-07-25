@@ -6,23 +6,25 @@
    "technology":{
       "id":"tech-android-native",
       "name":"Android Native",
+	  "versions":["2.3.3"],
       "modules":[
          {
-            "id":"mod_googlegson_1.7.1",
+            "id":"mod_googlegson_2.2.1",
             "name":"GoogleGSON",
             "core":false,
             "required":false,
             "versions":[
                {
-                  "version":"1.7.1",
-                  "url":"/modules/tech-android-native/files/mod_googlegson_1.7.1/1.7.1/mod_googlegson_1.7.1-1.7.1.jar",
+                  "version":"2.2.1",
+                  "url":"/modules/tech-android-native/files/mod_googlegson_2.2.1/2.2.1/mod_googlegson_2.2.1-2.2.1.jar",
                   "dependentModules":[
 
                   ]
                }
             ]
          }
-      ]
+      ],
+	  "webservices":[{"id":1,"name":"REST/JSON","version":"1.0","description":"REST JSON web services"}]
    },
    "application":"apptype-mobile"
 }
