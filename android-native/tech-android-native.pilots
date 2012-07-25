@@ -11,8 +11,8 @@
          {
             "id":"mod_googlegson_2.2.1",
             "name":"GoogleGSON",
-            "core":false,
-            "required":false,
+            "core":true,
+            "required":true,
             "versions":[
                {
                   "version":"2.2.1",
