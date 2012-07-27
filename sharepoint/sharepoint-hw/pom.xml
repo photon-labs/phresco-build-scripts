@@ -6,7 +6,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Sharepoint Resource Management</name>
-    <version>1.2.0.8003-SNAPSHOT</version>    
+    <version>1.2.0.8004-SNAPSHOT</version>    
     <build>
         <plugins>
             <plugin>
