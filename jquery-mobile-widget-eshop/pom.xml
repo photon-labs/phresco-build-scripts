@@ -10,14 +10,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
-    <artifactId>iphone-hybrid</artifactId>
+    <artifactId>jquery-mobile-widget</artifactId>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
-    <name>iphone Hybrid Pilot Projects</name>
-  
+    <name>jquery-mobile-widget Pilot Projects</name>
+   
     <modules>
-        <module>iphone-hybrid-shoppingcart</module>
-   </modules>
+        <module>jquery-mobile-widget-eshop</module>
+    </modules>
    
    <build>
         <plugins>

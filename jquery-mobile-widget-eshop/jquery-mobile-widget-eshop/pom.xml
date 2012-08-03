@@ -3,19 +3,19 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     
     <parent>
         <groupId>pilots</groupId>
-        <artifactId>php</artifactId>
+        <artifactId>jquery-mobile-widget</artifactId>
         <version>1.2.0.9001-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
-    <artifactId>tech-php</artifactId>
+    <artifactId>tech-jquery-mobile-widget</artifactId>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
-    <name>PHP Blog</name>
+    <name>eShop Application using html5-mobile-widget</name>
     
-    <build>
+     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -38,5 +38,5 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             </plugin>
         </plugins>
     </build>
-   
+  
 </project>
