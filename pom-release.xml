@@ -11,8 +11,8 @@
 
 	<properties>
 
-	 	<current.version>2.0.0.6001-SNAPSHOT</current.version>
-		<next.version>2.0.0.10000-SNAPSHOT</next.version>
+	 	<current.version>2.0.0.10000</current.version>
+		<next.version>2.0.0.10001-SNAPSHOT</next.version>
 
 	</properties>
 
