@@ -10,8 +10,8 @@
 
 	<properties>
 
-	 	<current.version>2.0.0.10001</current.version>
-		<next.version>2.0.0.10002</next.version>
+	 	<current.version>2.0.0.11000</current.version>
+		<next.version>2.0.0.11001-SNAPSHOT</next.version>
 
 	</properties>
 
