@@ -5,13 +5,13 @@
 	<baseDirectory>/</baseDirectory> 
 	<formats>
 		<format>zip</format>
-	<!--<format>tar.gz</format> -->
 	</formats>
 
 	<fileSets>
 		<!-- filter to copy the contents from the delivery directory -->
 		<fileSet>
-			<directory>${basedir}</directory>
+			<directory>../../../android-native-hw</directory>
+            <outputDirectory>./</outputDirectory>
 			<includes>
 			    <include>/source/**</include>
 			    <include>/test/**</include>

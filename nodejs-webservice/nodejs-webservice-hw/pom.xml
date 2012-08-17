@@ -1,12 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+     <parent>
+        <groupId>pilots</groupId>
+        <artifactId>nodejs-webservice</artifactId>
+        <version>2.0.0.10003-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+    
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
     <artifactId>tech-nodejs-webservice</artifactId>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Nodejs-webservice Resource Management</name>
-    <version>1.1.15002-SNAPSHOT</version>      
     <build>
         <plugins>
             <plugin>
@@ -74,18 +81,4 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         </plugins>
     </build>
 
-
-
-      <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>http://dev-repo.photoninfotech.com:8080/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>releases</id>
-            <url>http://dev-repo.photoninfotech.com:8080/nexus/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
- 
-    
 </project>

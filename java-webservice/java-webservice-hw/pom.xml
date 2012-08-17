@@ -1,5 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+     <parent>
+        <groupId>pilots</groupId>
+        <artifactId>java-webservice</artifactId>
+        <version>2.0.0.10003-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+    
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
     <artifactId>tech-java-webservice</artifactId>
@@ -7,7 +15,7 @@
     <url>http://www.phresco.com</url>
     <name>eShop Application using java-webservice</name>
     <description>Shopping Cart</description>
-    <version>1.1.15002-SNAPSHOT</version>    
+     
     <properties>
         <jersey-version>1.9-ea07</jersey-version>
     </properties>
@@ -162,6 +170,15 @@
 
     <build>     
         <plugins>
+            <plugin>            
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-war-plugin</artifactId>
+              <configuration>
+                <webXml>../../../java-webservice-eshop/src/main/webapp/WEB-INF/web.xml</webXml>        
+              </configuration>
+            </plugin>
+
+        
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>tomcat-maven-plugin</artifactId>            
@@ -193,17 +210,5 @@
         </plugins>
         <finalName>eshop</finalName>
     </build>
-
-     <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>http://dev-repo.photoninfotech.com:8080/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>releases</id>
-            <url>http://dev-repo.photoninfotech.com:8080/nexus/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
-   
 
 </project>

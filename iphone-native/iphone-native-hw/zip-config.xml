@@ -11,7 +11,8 @@
 	<fileSets>
 		<!-- filter to copy the contents from the delivery directory -->
 		<fileSet>
-			<directory>${basedir}</directory>
+			<directory>../../../iphone-native-hw</directory>
+            <outputDirectory>./</outputDirectory>
 			<excludes>
 			    <exclude>zip-config.xml</exclude>
 			    <exclude>pom.xml</exclude>

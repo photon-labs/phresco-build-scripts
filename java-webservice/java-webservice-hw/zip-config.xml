@@ -11,7 +11,8 @@
 	<fileSets>
 		<!-- filter to copy the contents from the delivery directory -->
 		<fileSet>
-			<directory>${basedir}</directory>
+			<directory>../../../java-webservice-hw</directory>
+            <outputDirectory>./</outputDirectory>
 			<includes>
 			    <include>/src/**</include>
 			    <include>/test/**</include>
