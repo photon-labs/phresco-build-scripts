@@ -1,6 +1,6 @@
-export REPO_ID=dev-releases
-export REPO_URL=http://172.16.18.178:8080/nexus/content/repositories/releases/
-export VERSION=1.2.2.2001-SNAPSHOT
+export REPO_ID=amazon-releases
+export REPO_URL=http://23.21.177.233:8080/nexus/content/repositories/releases/
+export VERSION=1.2.2.3001-SNAPSHOT
 export COMMAND=deploy:deploy-file
 
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-android-native -Dversion=$VERSION -Dpackaging=pilots -Dfile=android-native/tech-android-native.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
