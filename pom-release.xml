@@ -11,8 +11,8 @@
 
 	<properties>
 
-	 	<current.version>1.2.0.9001-SNAPSHOT</current.version>
-		<next.version>1.2.1.1000-SNAPSHOT</next.version>
+	 	<current.version>1.2.1.3000</current.version>
+		<next.version>1.2.1.3001-SNAPSHOT</next.version>
 
 	</properties>
 

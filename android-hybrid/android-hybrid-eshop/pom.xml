@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <parent>
         <groupId>pilots</groupId>
         <artifactId>android-hybrid</artifactId>
-        <version>1.2.1.1000-SNAPSHOT</version>
+        <version>1.2.1.3000</version>
         <relativePath>../</relativePath>
     </parent>
     
