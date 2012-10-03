@@ -3,7 +3,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
     <artifactId>pilot-projects</artifactId>
-    <version>1.2.3.1001-SNAPSHOT</version>
+    <version>1.2.3.2001-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Phresco projects</name>
