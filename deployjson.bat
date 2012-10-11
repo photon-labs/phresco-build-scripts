@@ -1,6 +1,6 @@
 set REPO_ID=dev-releases
 set REPO_URL=http://172.16.18.178:8080/nexus/content/repositories/releases/
-set VERSION=1.2.3.3003-SNAPSHOT
+set VERSION=1.2.3.3004-SNAPSHOT
 set COMMAND=deploy:deploy-file
 
 call mvn deploy:deploy-file -DgroupId=pilots -DartifactId=tech-android-native -Dversion=%VERSION% -Dpackaging=pilots -Dfile=android-native/tech-android-native.pilots -DrepositoryId=%REPO_ID% -Durl=%REPO_URL%
