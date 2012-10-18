@@ -1,5 +1,5 @@
-export REPO_ID=dev-releases
-export REPO_URL=http://172.16.18.178:8080/nexus/content/repositories/releases/
+export REPO_ID=amazon-releases
+export REPO_URL=http://23.21.177.233:8080/nexus/content/repositories/releases/
 export VERSION=1.2.3.4002-SNAPSHOT
 export COMMAND=deploy:deploy-file
 
