@@ -9,7 +9,7 @@
 	<name>Phresco Parent POM for repository and distribution management</name>
 
 	<properties>
-	 	<current.version>2.0.0.20001</current.version>
+	 	<current.version>2.0.0.16001-SNAPSHOT</current.version>
 		<next.version>2.0.0.20002-SNAPSHOT</next.version>
 	</properties>
 
