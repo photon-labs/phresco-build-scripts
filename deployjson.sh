@@ -21,6 +21,8 @@ mvn $COMMAND -DgroupId=pilots -DartifactId=tech-jquery-mobile-widget -Dversion=$
 
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-iphone-native -Dversion=$VERSION -Dpackaging=pilots -Dfile=iphone-native/tech-iphone-native.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
 
+mvn $COMMAND -DgroupId=pilots -DartifactId=tech-iphone-library -Dversion=$VERSION -Dpackaging=pilots -Dfile=iphone-library/tech-iphone-library.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
+
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-iphone-hybrid -Dversion=$VERSION -Dpackaging=pilots -Dfile=iphone-hybrid/tech-iphone-hybrid.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
 
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-java-webservice -Dversion=$VERSION -Dpackaging=pilots -Dfile=java-webservice/tech-java-webservice.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
@@ -30,3 +32,4 @@ mvn $COMMAND -DgroupId=pilots -DartifactId=tech-nodejs-webservice -Dversion=$VER
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-php -Dversion=$VERSION -Dpackaging=pilots -Dfile=php/tech-php.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
 
 mvn $COMMAND -DgroupId=pilots -DartifactId=tech-sharepoint -Dversion=$VERSION -Dpackaging=pilots -Dfile=sharepoint/tech.sharepoint.pilots -DrepositoryId=$REPO_ID -Durl=$REPO_URL
+
