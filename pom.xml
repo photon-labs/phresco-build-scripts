@@ -21,7 +21,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <module>java-webservice</module>
         <module>php</module>
         <module>sharepoint</module>
-        <module>nodejs-webservice</module> 
+        <module>nodejs-webservice</module>
+        <module>iphone-library</module>
     </modules>
     
     <distributionManagement>
