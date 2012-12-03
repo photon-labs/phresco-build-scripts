@@ -9,7 +9,7 @@
 	<name>Phresco Parent POM for repository and distribution management</name>
 
 	<properties>
-	 	<current.version>2.0.0.27000</current.version>
+	 	<current.version>2.0.0.27</current.version>
 		<next.version>2.0.0.27001-SNAPSHOT</next.version>
 	</properties>
 
@@ -33,7 +33,19 @@
 			
             <include>**/pom.xml</include>
             <include>**/phresco-pom.xml</include>
-            <include>**/projects-pom.xml</include>
+            <include>**/archetype-metadata.xml</include>
+            <include>**/excludefiles.txt</include>
+            <include>**/phresco-application-handler-info.xml</include>
+            <include>**/phresco-ci-info.xml</include>
+            <include>**/phresco-deploy-info.xml</include>
+            <include>**/phresco-functional-test-info.xml</include>
+            <include>**/phresco-package-info.xml</include>
+            <include>**/phresco-pdf-report-info.xml</include>
+            <include>**/phresco-performance-test-info.xml</include>
+            <include>**/phresco-plugin-info.xml</include>
+            <include>**/phresco-unit-test-info.xml</include>
+            <include>**/phresco-validate-code-info.xml</include>
+            
 			
             <!--
 			<include>commons/**/pom.xml</include>
