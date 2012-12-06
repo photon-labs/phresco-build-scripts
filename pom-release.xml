@@ -33,6 +33,7 @@
 			
             <include>**/pom.xml</include>
             <include>**/phresco-pom.xml</include>
+			<include>**/projects-pom.xml</include>
             <include>**/archetype-metadata.xml</include>
             <include>**/excludefiles.txt</include>
             <include>**/phresco-application-handler-info.xml</include>
