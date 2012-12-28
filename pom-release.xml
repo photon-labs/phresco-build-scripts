@@ -46,6 +46,9 @@
             <include>**/phresco-plugin-info.xml</include>
             <include>**/phresco-unit-test-info.xml</include>
             <include>**/phresco-validate-code-info.xml</include>
+			<include>**/phresco-load-test-info.xml</include>
+			<include>**/phresco-theme-info.xml</include>
+			<include>**/phresco-content-info.xml</include>
             
 			
             <!--
