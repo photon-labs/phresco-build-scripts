@@ -49,6 +49,7 @@
 			<include>**/phresco-load-test-info.xml</include>
 			<include>**/phresco-theme-info.xml</include>
 			<include>**/phresco-content-info.xml</include>
+			<include>**/phresco-run-against-source-info.xml</include>
             
 			
             <!--
