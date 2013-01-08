@@ -10,7 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     
    <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
-    <artifactId>android</artifactId>
+    <artifactId>android-native</artifactId>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>Android Pilot Projects</name>
