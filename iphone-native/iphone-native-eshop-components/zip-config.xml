@@ -11,7 +11,7 @@
 	<fileSets>
 		<!-- filter to copy the contents from the delivery directory -->
 		<fileSet>
-			<directory>../../../iphone-native-arc-shoppingcart</directory>
+			<directory>../../../iphone-native-eshop-components</directory>
             <outputDirectory>./</outputDirectory>
 			<excludes>
 			    <exclude>zip-config.xml</exclude>
