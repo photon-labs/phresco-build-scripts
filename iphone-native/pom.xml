@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <parent>
         <groupId>pilots</groupId>
         <artifactId>pilot-projects</artifactId> 
-        <version>2.0.0.35003-SNAPSHOT</version>
+        <version>2.0.0.35004-SNAPSHOT</version>
         <relativePath>../projects-pom.xml</relativePath>
     </parent>
     
@@ -16,7 +16,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <name>iphone Pilot Projects</name> 
 
     <modules>
-        <module>iphone-native-eshop-components</module>
+        <module>iphone-native-arc-shoppingcart</module>
     </modules>
    
    <build>
