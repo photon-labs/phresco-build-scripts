@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.awired.jscoverage</groupId>
+	<artifactId>jscoverage-parent</artifactId>
+	<version>0.3</version>
+	<packaging>pom</packaging>
+
+	<name>JsCoverage - Parent</name>
+
+	<parent>
+		<groupId>net.awired.parent.parent-java</groupId>
+		<artifactId>parent-java</artifactId>
+		<version>1.14</version>
+	</parent>
+
+	<modules>
+		<module>jscoverage</module>
+		<module>sample</module>
+	</modules>
+
+	<scm>
+		<connection>scm:git:git://github.com/awired/jscoverage.git</connection>
+		<developerConnection>scm:git:git@github.com:awired/jscoverage.git</developerConnection>
+		<url>http://github.com/awired/jscoverage</url>
+	</scm>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>net.awired.jscoverage</groupId>
+				<artifactId>jscoverage</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+     <distributionManagement>
+        <repository>
+            <id>dev-releases</id>
+            <url>http://172.16.17.226:8080/repository/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
+</project>

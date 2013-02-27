@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>jscoverage</artifactId>
+	<name>JsCoverage</name>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>net.awired.jscoverage</groupId>
+		<artifactId>jscoverage-parent</artifactId>
+		<version>0.3</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<properties>
+		<antlr.version>3.4</antlr.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr</artifactId>
+			<version>${antlr.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>regenerate</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<version>1.7</version>
+						<executions>
+							<execution>
+								<phase>generate-resources</phase>
+								<configuration>
+									<target>
+										<java jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar" fork="true" dir="src/main/java">
+											<arg value="-make" />
+											<arg value="net/awired/jscoverage/instrumentation/es3/ES3Instrument.g" />
+										</java>
+										<java jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar" fork="true" dir="src/main/java">
+											<arg value="-make" />
+											<arg value="net/awired/jscoverage/instrumentation/es3/ES3.g" />
+										</java>
+									</target>
+								</configuration>
+								<goals>
+									<goal>run</goal>
+								</goals>
+							</execution>
+						</executions>
+						<dependencies>
+							<dependency>
+								<groupId>org.antlr</groupId>
+								<artifactId>antlr</artifactId>
+								<version>${antlr.version}</version>
+								<classifier>jar-with-dependencies</classifier>
+							</dependency>
+						</dependencies>
+					</plugin>
+				</plugins>
+				<pluginManagement>
+					<plugins>
+						<!--This plugin's configuration is used to store Eclipse m2e settings 
+							only. It has no influence on the Maven build itself. -->
+						<plugin>
+							<groupId>org.eclipse.m2e</groupId>
+							<artifactId>lifecycle-mapping</artifactId>
+							<version>1.0.0</version>
+							<configuration>
+								<lifecycleMappingMetadata>
+									<pluginExecutions>
+										<pluginExecution>
+											<pluginExecutionFilter>
+												<groupId>
+													org.apache.maven.plugins
+										</groupId>
+												<artifactId>
+													maven-antrun-plugin
+										</artifactId>
+												<versionRange>
+													[1.7,)
+										</versionRange>
+												<goals>
+													<goal>run</goal>
+												</goals>
+											</pluginExecutionFilter>
+											<action>
+												<ignore />
+											</action>
+										</pluginExecution>
+									</pluginExecutions>
+								</lifecycleMappingMetadata>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+	</profiles>
+</project>
