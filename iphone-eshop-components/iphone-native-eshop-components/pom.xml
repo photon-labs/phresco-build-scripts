@@ -3,7 +3,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     
     <parent>
         <groupId>pilots</groupId>
-        <artifactId>iphone</artifactId>
+        <artifactId>iphone-eshop-components</artifactId>
         <version>2.1.0.1004-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
