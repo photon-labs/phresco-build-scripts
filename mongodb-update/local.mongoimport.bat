@@ -1,19 +1,25 @@
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c adminLog --file d:/mongodb/adminLog.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c applicationInfos --file d:/mongodb/applicationInfos.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c apptypes --file d:/mongodb/apptypes.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c artifactGroupDAOs --file d:/mongodb/artifactGroupDAOs.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c artifactInfos --file d:/mongodb/artifactInfos.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c createdprojects --file d:/mongodb/createdprojects.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c customerOptions --file d:/mongodb/customerOptions.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c customers --file d:/mongodb/customers.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c downloads --file d:/mongodb/downloads.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c frameworkTheme --file d:/mongodb/frameworkTheme.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c functionalFrameworks --file d:/mongodb/functionalFrameworks.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c icons.chunks --file d:/mongodb/icons.chunks.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c icons.files --file d:/mongodb/icons.files.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c Licenses --file d:/mongodb/Licenses.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c options --file d:/mongodb/options.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c platforms --file d:/mongodb/platforms.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c permissions --file d:/mongodb/permissions.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c projectInfo --file d:/mongodb/projectInfo.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c properties --file d:/mongodb/properties.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c reports --file d:/mongodb/reports.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c reports-all --file d:/mongodb/reports-all.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c reportsfinal --file d:/mongodb/reportsfinal.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c roles --file d:/mongodb/roles.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c settings --file d:/mongodb/settings.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c system.indexes --file d:/mongodb/system.indexes.json --upsert
@@ -25,6 +31,7 @@ mongoimport -h 172.16.17.227 --port 27017 -d testing -c versionInfo --file d:/mo
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c videoDAOs --file d:/mongodb/videoDAOs.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c videotypeDAOs --file d:/mongodb/videotypeDAOs.json --upsert
 mongoimport -h 172.16.17.227 --port 27017 -d testing -c webservices --file d:/mongodb/webservices.json --upsert
+mongoimport -h 172.16.17.227 --port 27017 -d testing -c repoInfo --file d:/mongodb/repoInfo.json --upsert
 
 echo icons
 
