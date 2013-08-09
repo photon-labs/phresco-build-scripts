@@ -17,6 +17,7 @@
 			    <include>/source/**</include>
 			    <include>/test/**</include>
 			    <include>/docs/**</include>
+				<include>/.phresco/**</include>
 			</includes>
 			<excludes>
 			    <exclude>zip-config.xml</exclude>
