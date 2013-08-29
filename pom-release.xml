@@ -10,7 +10,7 @@
 
 	<properties>
 	<current.version>3.0.0.23003</current.version>
-		<next.version>3.0.0.23004-SNPSHOT</next.version>
+		<next.version>3.0.0.23004-SNAPSHOT</next.version>
 	</properties>
 
 <build>
