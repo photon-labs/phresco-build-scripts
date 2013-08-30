@@ -4,7 +4,7 @@
      <parent>
         <groupId>pilots</groupId>
         <artifactId>java-webservice</artifactId>
-        <version>3.0.0.23005-SNAPSHOT</version>
+        <version>3.0.0.24001-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
     
