@@ -9,7 +9,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </parent>
     
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.photon.phresco.test</groupId>
+    <groupId>com.photon.phresco.test.integrationtest</groupId>
     <artifactId>integrationtest</artifactId>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
