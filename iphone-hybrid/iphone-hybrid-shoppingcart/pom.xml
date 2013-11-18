@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <parent>
         <groupId>pilots</groupId>
         <artifactId>iphone-hybrid</artifactId>
-        <version>3.1.0.7001-SNAPSHOT</version>
+        <version>3.2.0.1000-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
     
