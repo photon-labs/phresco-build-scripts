@@ -30,7 +30,7 @@
             <configuration>
 			<basedir>../</basedir>
                 <includes>
-			
+			<include>**/project.info</include>
             <include>**/pom.xml</include>
             <include>**/pom-create.xml</include>
             <include>**/phresco-pom.xml</include>
