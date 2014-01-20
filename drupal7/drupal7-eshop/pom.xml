@@ -3,7 +3,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <parent>
         <groupId>pilots</groupId>
         <artifactId>drupal7</artifactId>
-        <version>3.2.0.10002-SNAPSHOT</version>
+        <version>3.2.0.10003-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
     
