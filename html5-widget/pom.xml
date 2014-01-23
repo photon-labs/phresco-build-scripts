@@ -4,14 +4,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <parent>
         <groupId>pilots</groupId>
         <artifactId>pilot-projects</artifactId>
-        <version>3.2.0.10005-SNAPSHOT</version>
+        <version>3.2.0.10006-SNAPSHOT</version>
         <relativePath>../projects-pom.xml</relativePath>
     </parent>
    
     <modelVersion>4.0.0</modelVersion>
     <groupId>pilots</groupId>
     <artifactId>html5-widget</artifactId>
-    <version>3.2.0.10005-SNAPSHOT</version>
+    <version>3.2.0.10006-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.phresco.com</url>
     <name>html5-widget Pilot Projects</name>
