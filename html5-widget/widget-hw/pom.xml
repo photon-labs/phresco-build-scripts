@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
    <parent>
         <groupId>pilots</groupId>
         <artifactId>html5-widget</artifactId>
-        <version>3.2.0.13002-SNAPSHOT</version>
+        <version>3.2.1.1000</version>
         <relativePath>../</relativePath>
     </parent>
     
