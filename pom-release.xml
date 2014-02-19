@@ -51,14 +51,16 @@
 			<include>**/phresco-theme-info.xml</include>
 			<include>**/phresco-content-info.xml</include>
 			<include>**/phresco-run-against-source-info.xml</include>
-                        <include>**/phresco-ci-package-info.xml</include>
-                        <include>**/phresco-ci-validate-code-info.xml</include>
-                        <include>**/phresco-ci-pdf-report-info.xml</include>
-                        <include>**/phresco-ci-deploy-info.xml</include>
-                        <include>**/phresco-ci-performance-test-info.xml</include>
-                        <include>**/phresco-ci-functional-test-info.xml</include>
-                        <include>**/phresco-ci-unit-test-info.xml</include>
-			
+            <include>**/phresco-ci-package-info.xml</include>
+            <include>**/phresco-ci-validate-code-info.xml</include>
+            <include>**/phresco-ci-pdf-report-info.xml</include>
+            <include>**/phresco-ci-deploy-info.xml</include>
+            <include>**/phresco-ci-performance-test-info.xml</include>
+            <include>**/phresco-ci-functional-test-info.xml</include>
+            <include>**/phresco-ci-unit-test-info.xml</include>
+            <include>**/phresco-ci-component-test-info.xml</include>
+            <include>**/phresco-ci-load-test-info.xml</include>
+            <include>**/phresco-component-test-info.xml</include>
             <!--
 			<include>commons/**/pom.xml</include>
 			<include>framework/**/pom.xml</include>
