@@ -9,8 +9,8 @@
 	<name>Phresco Parent POM for repository and distribution management</name>
 
 	<properties>
-	<current.version>3.2.1.1000</current.version>
-		<next.version>3.2.1.1001-SNAPSHOT</next.version>
+	<current.version>3.2.1.2000</current.version>
+		<next.version>3.2.1.2001-SNAPSHOT</next.version>
 	</properties>
 
 <build>
@@ -51,14 +51,16 @@
 			<include>**/phresco-theme-info.xml</include>
 			<include>**/phresco-content-info.xml</include>
 			<include>**/phresco-run-against-source-info.xml</include>
-                        <include>**/phresco-ci-package-info.xml</include>
-                        <include>**/phresco-ci-validate-code-info.xml</include>
-                        <include>**/phresco-ci-pdf-report-info.xml</include>
-                        <include>**/phresco-ci-deploy-info.xml</include>
-                        <include>**/phresco-ci-performance-test-info.xml</include>
-                        <include>**/phresco-ci-functional-test-info.xml</include>
-                        <include>**/phresco-ci-unit-test-info.xml</include>
-			
+            <include>**/phresco-ci-package-info.xml</include>
+            <include>**/phresco-ci-validate-code-info.xml</include>
+            <include>**/phresco-ci-pdf-report-info.xml</include>
+            <include>**/phresco-ci-deploy-info.xml</include>
+            <include>**/phresco-ci-performance-test-info.xml</include>
+            <include>**/phresco-ci-functional-test-info.xml</include>
+            <include>**/phresco-ci-unit-test-info.xml</include>
+            <include>**/phresco-ci-component-test-info.xml</include>
+            <include>**/phresco-ci-load-test-info.xml</include>
+            <include>**/phresco-component-test-info.xml</include>
             <!--
 			<include>commons/**/pom.xml</include>
 			<include>framework/**/pom.xml</include>
