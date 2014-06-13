@@ -61,6 +61,8 @@
             <include>**/phresco-ci-component-test-info.xml</include>
             <include>**/phresco-ci-load-test-info.xml</include>
             <include>**/phresco-component-test-info.xml</include>
+            <include>**/phresco-zap-test-info.xml</include>
+            <include>**/phresco-seo-test-info.xml</include>
             <!--
 			<include>commons/**/pom.xml</include>
 			<include>framework/**/pom.xml</include>
